@@ -1,0 +1,33 @@
+#Abrir terminal (Windows)
+win+r
+ -> cmd
+
+#Comandos node
+version node -> node -v
+version npm -> npm -v
+
+#Instalar dependencia npm
+ -> npm install <nombre-dependencia>
+
+#Instalar dependencia global npm
+ -> npm install -g <nombre-dependencia>
+
+#Correr proyecto (Windows)
+ ## Instalar dependencias
+  -> npm install
+ -> SET DEBUG=curso:* & npm start
+
+#Comandos git
+ ->git status
+ ##Iniciar repositorio
+  -> git init
+ ##Añadir url remota del proyecto (Sacar url de github)
+  -> git remote add origin <url>
+ ##Añadir cambios
+  -> git add
+  -> git add -A
+ ##Añadir comentarios
+  -> git commit -m "<comentario>"
+
+
+
